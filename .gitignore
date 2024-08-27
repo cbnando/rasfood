@@ -2,8 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea
-untitled/.idea
+!**/untitled/.idea**/out/
 
 ### Eclipse ###
 .apt_generated
