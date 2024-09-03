@@ -7,19 +7,23 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "pratos")
 public class Prato {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
     private String nome;
+
     private String descricao;
+
     private Boolean disponivel;
+
     private BigDecimal valor;
 
     @Column(name = "data_de_registro")
     private LocalDateTime dataDeRegistro = LocalDateTime.now();
 
     public Prato() {
-        //construtor
     }
 
     public Integer getId() {
