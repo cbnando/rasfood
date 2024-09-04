@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e6fa8cd-02ac-425f-b570-dccacf5db57e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/PratoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/service/teste/PratoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/util/JPAUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Prato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/CardapioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/service/teste/CardapioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/PratoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/service/teste/PratoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/dao/PratoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/dao/PratoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/service/teste/PratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/service/teste/PratoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,10 @@
     "Application.PratoService.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cbnan/OneDrive/Área de Trabalho/PROJETOS/JAVA/RASMOO/rasfood",
     "onboarding.tips.debug.path": "C:/Users/cbnan/OneDrive/Área de Trabalho/PROJETOS/JAVA/RASMOO/rasfood/src/Main.java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
@@ -54,8 +60,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="PratoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.rasmoo.restaurante.service.teste.PratoService" />
+    <configuration name="CardapioService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.rasmoo.restaurante.service.teste.CardapioService" />
       <module name="rasfood" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PratoService" />
+        <item itemvalue="Application.CardapioService" />
       </list>
     </recent_temporary>
   </component>
