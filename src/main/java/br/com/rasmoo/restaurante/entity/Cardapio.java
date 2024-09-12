@@ -20,20 +20,24 @@ public class Cardapio {
 
     private BigDecimal valor;
 
+    /*
+     * ManyToOne
+     * ManyToMany
+     * OneToMany
+     * OneToOne
+     * */
     @ManyToOne
     private Categoria categoria;
 
     @Column(name = "data_de_registro")
     private LocalDateTime dataDeRegistro = LocalDateTime.now();
 
-
-    public Cardapio(String nome, String descricao, Boolean disponivel, BigDecimal valor, Categoria categoria, LocalDateTime dataDeRegistro) {
+    public Cardapio(String nome, String descricao, Boolean disponivel, BigDecimal valor, Categoria categoria) {
         this.nome = nome;
         this.descricao = descricao;
         this.disponivel = disponivel;
         this.valor = valor;
         this.categoria = categoria;
-        this.dataDeRegistro = dataDeRegistro;
     }
 
     public Cardapio() {
@@ -97,12 +101,13 @@ public class Cardapio {
 
     @Override
     public String toString() {
-        return "Prato{" +
+        return "Cardapio{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", descricao='" + descricao + '\'' +
                 ", disponivel=" + disponivel +
                 ", valor=" + valor +
+                ", categoria=" + categoria +
                 ", dataDeRegistro=" + dataDeRegistro +
                 '}';
     }
