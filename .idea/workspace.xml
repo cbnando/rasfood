@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e6fa8cd-02ac-425f-b570-dccacf5db57e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/util/CargaDeDadosUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Ordem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/CardapioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/CardapioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/dao/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/entity/Cardapio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/service/teste/CardapioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rasmoo/restaurante/service/teste/CardapioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/dao/CardapioDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/dao/CardapioDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/dao/CategoriaDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/entity/Cardapio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/service/teste/CardapioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/entity/Cardapio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/rasmoo/restaurante/entity/Cardapio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
