@@ -30,9 +30,6 @@ public class Cardapio {
     @ManyToOne
     private Categoria categoria;
 
-    @ManyToMany(mappedBy = "cardapioList")
-    private List<Ordem> ordemList;
-
     @Column(name = "data_de_registro")
     private LocalDateTime dataDeRegistro = LocalDateTime.now();
 

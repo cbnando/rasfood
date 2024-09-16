@@ -3,6 +3,7 @@ package br.com.rasmoo.restaurante.entity;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -19,13 +20,15 @@ public class Ordem {
 
     @ManyToOne
     private Cliente cliente;
-    @ManyToMany
-    @JoinTable(
-            name = "ordens_cardapio",
-            joinColumns = @JoinColumn(name = "ordens_id"),
-            inverseJoinColumns = @JoinColumn(name = "cardapio_id")
-    )
-    private List<Cardapio> cardapioList;
+
+
+//    @JoinTable(
+//            name = "ordens_cardapio",
+//            joinColumns = @JoinColumn(name = "ordens_id"),
+//            inverseJoinColumns = @JoinColumn(name = "cardapio_id")
+//    )
+    @OneToMany(mappedBy = "ordem")
+    private List<OrdensCardapio> ordensCardapioList = new ArrayList<>();
 
     public Ordem(Cliente cliente) {
         this.cliente = cliente;
@@ -33,6 +36,11 @@ public class Ordem {
 
     public Ordem() {
 
+    }
+
+    public void addOrdensCardapio(OrdensCardapio ordensCardapio) {
+        ordensCardapio.setOrdem(this);
+        this.ordensCardapioList.add(ordensCardapio);
     }
 
     public Integer getId() {
