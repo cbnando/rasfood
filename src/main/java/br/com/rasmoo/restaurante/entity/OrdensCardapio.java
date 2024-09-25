@@ -19,8 +19,7 @@ public class OrdensCardapio {
 
     private Integer quatidade;
 
-    public OrdensCardapio(Ordem ordem, Cardapio cardapio, Integer quatidade) {
-        this.ordem = ordem;
+    public OrdensCardapio(Cardapio cardapio, Integer quatidade) {
         this.cardapio = cardapio;
         this.quatidade = quatidade;
         this.valor = cardapio.getValor();
